@@ -1,0 +1,79 @@
+body {
+	font: normal normal normal 13px/1.5 "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	background: #d4e9ec;
+	background: #d5e9ed;
+	background: #ccc;
+}
+
+/* Structure */
+#content {
+	margin-bottom: 10px;
+}
+#content h1 { 
+	color: #495256;	font-size: 18px; margin-bottom: 2px;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+#content p,
+#content dl,
+#content hr,
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6,
+#content ol,
+#content ul,
+#content pre,
+#content table,
+#content address,
+#content fieldset,
+#content blockquote {
+	margin-left: 20px; margin-right: 20px;
+}
+
+/* Nav */
+#navigation {
+/*	background: #8196AB;*/
+	margin-bottom: 10px;
+}
+#navigation ul {
+	margin: 0; padding: 0;
+	font-size: 11px;
+	text-align: left;	float: right;
+	text-transform: uppercase;
+	padding: 4px 20px 4px 20px;
+}
+#navigation ul.left {
+	float: left;
+}
+#navigation ul li.normalcase {
+	text-transform: capitalize;
+}
+
+#navigation ul li {
+	display: inline;
+	list-style: none;
+	padding: 4px; margin: 0 3px 0 3px;
+	background: none;
+	float: left;
+}
+#navigation ul li a {
+	color: #e5e9ed; text-decoration: none; color: #666;
+}
+#navigation ul li a:hover {
+	color: #fff; color: #000;
+}
+
+body#home #page #header #mainNav li#n-home a,
+body#employment #page #header #mainNav li#n-portfolio a,
+body#contact .clouds #page #header #mainNav li#n-contact a { 
+	color: #0198D8; text-decoration: none; background: #143347; padding: 6px;
+
+
+
+/* Misc */
+.clear {
+	clear: both;
+}

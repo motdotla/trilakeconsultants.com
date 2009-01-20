@@ -1,0 +1,58 @@
+---
+extension: html
+filter:    erb
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+	  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	  <title><%= @page.title %> &laquo; Tri Lake Consultants, Inc.</title>
+	  <meta name="author" content="<%= @page.author %>" />
+
+		<!--- CSS Framework -->
+		<link rel="stylesheet" href="/css/base.css" type="text/css" media="all" />
+</head>
+<body id="<%= @page.permalink %>">
+
+<div id="page" class="container_12">
+	<div class="grid_2">&nbsp;</div>
+	<div id="navigation" class="grid_8">
+		
+		<div class="grid_3 alpha logo">
+			<ul class="left">
+				<li class="normalcase"><a href="/">Tri Lake Consultants, Inc.</a></li>
+			</ul>
+		</div>
+		<div class="grid_5 omega">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/contact.html">Contact</a></li>
+				<li><a href="/employment.html">Employment</a></li>
+			</ul>
+		</div>
+		<!-- <div id="logo">Tri Lake Consultants, Inc.</div> -->
+	</div>
+	<div class="grid_2">&nbsp;</div>
+	<div class="clear"></div>
+	
+	<div class="grid_2">&nbsp;</div>
+	<div id="header" class="grid_8">
+		<p align="center"><img src="/images/trilake-home.png" /></p>
+	</div>
+	<div class="grid_2">&nbsp;</div>	
+	<div class="clear"></div>
+	
+	
+	<div class="grid_2">&nbsp;</div>
+	
+  <div id="content" class="grid_8">
+     <%= @content %>
+  </div>
+
+	<div class="grid_2">&nbsp;</div>
+
+</div><!-- /page -->
+</body>
+</html>
