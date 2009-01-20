@@ -7,12 +7,22 @@ filter:
   - textile
 ---
 
-h1. Contact
+h1(hidden). Contact
 
+<div class="grid_5 alpha">
+	<iframe height="385" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="http://scottmotte.wufoo.com/embed/r7x3p9/"><a href="http://scottmotte.wufoo.com/forms/r7x3p9/" title="Contact Form">Fill out our contact form.</a></iframe>
+</div>
 
-Mailing: P.O. Box 606, Perris, CA 92570-0606
-Office: 170 Wilkerson Ave. Suite D, Perris, CA 92572 (<a href="http://local.google.com/maps?f=q&hl=en&q=170+Wilkerson+Ave.+Suite+D,+Perris,+CA+92572&ie=UTF8&om=1&ll=33.786745,-117.219658&spn=0.019296,0.031972&z=15&iwloc=addr">map</a>)
-P: 951.943.6504
-F: 951.9438416
-
-<iframe height="385" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="http://scottmotte.wufoo.com/embed/r7x3p9/"><a href="http://scottmotte.wufoo.com/forms/r7x3p9/" title="Contact Form">Fill out our contact form.</a></iframe>
+<div class="grid_3 omega">
+	*Mailing* 
+	P.O. Box 606
+	Perris, CA 92570-0606
+	
+	*Office* 
+	170 Wilkerson Ave. Suite D
+	Perris, CA 92572 (<a href="http://local.google.com/maps?f=q&hl=en&q=170+Wilkerson+Ave.+Suite+D,+Perris,+CA+92572&ie=UTF8&om=1&ll=33.786745,-117.219658&spn=0.019296,0.031972&z=15&iwloc=addr">map</a>)
+	
+	*Phone/Fax*
+	P: 951.943.6504
+	F: 951.9438416
+</div>

@@ -5,12 +5,15 @@ body {
 	background: #ccc;
 }
 
+.hidden {
+	display: none;
+}
 /* Structure */
 #content {
 	margin-bottom: 10px;
 }
 #content h1 { 
-	color: #495256;	font-size: 18px; margin-bottom: 2px;
+	color: #000;	font-size: 18px; margin-bottom: 2px;
 	font-weight: normal;
 	margin-bottom: 30px;
 }
