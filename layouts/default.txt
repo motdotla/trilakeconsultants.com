@@ -39,7 +39,7 @@ filter:    erb
 	
 	<div class="grid_2">&nbsp;</div>
 	<div id="header" class="grid_8">
-		<p align="center"><img src="/images/trilake-home.png" /></p>
+		<p align="center"><a href="/"><img src="/images/trilake-home.png" /></a></p>
 	</div>
 	<div class="grid_2">&nbsp;</div>	
 	<div class="clear"></div>
